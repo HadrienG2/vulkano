@@ -16,6 +16,8 @@
 - `Instance::new` and `Instance::with_loader` now take in the layers as an iterator of borrowed `str`s, not of references to
 borrowed `str`s.
 
+- Use [google/shaderc](https://github.com/google/shaderc-rs) for shader compilation
+
 # Version 0.9.0 (2018-03-13)
 
 - Updated winit to version 0.11.
