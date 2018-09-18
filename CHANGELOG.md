@@ -4,6 +4,7 @@
   each with a matching enum indicating the usage that was missing.
 - Fix instance_count when using draw_index with instance buffers
 - Added a `reinterpret` function to `BufferSlice`
+- Use [google/shaderc](https://github.com/google/shaderc-rs) for shader compilation
 
 # Version 0.10.0 (2018-08-10)
 
@@ -15,8 +16,6 @@
 - `AutoCommandBufferBuilder::draw` and friends no longer consume the `DynamicState` argument, allowing reuse between calls.
 - `Instance::new` and `Instance::with_loader` now take in the layers as an iterator of borrowed `str`s, not of references to
 borrowed `str`s.
-
-- Use [google/shaderc](https://github.com/google/shaderc-rs) for shader compilation
 
 # Version 0.9.0 (2018-03-13)
 
